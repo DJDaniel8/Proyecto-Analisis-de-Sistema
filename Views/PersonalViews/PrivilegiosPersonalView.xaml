@@ -45,14 +45,8 @@
                         <Label Content="Cambiar Precio" FontFamily="Roboto" FontSize="16"/>
                         <CheckBox VerticalAlignment="Center" IsChecked="{Binding CambiarPrecio, Mode=TwoWay}"/>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Cotizaciones" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Cotizaciones, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="30 0 0 0">
-                        <Label Content="Cambiar Precio" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding CambiarPrecio2, Mode=TwoWay}"/>
-                    </StackPanel>
+                    
+                    
                     <StackPanel Orientation="Horizontal">
                         <Label Content="Productos" FontFamily="Roboto" FontSize="16"/>
                         <CheckBox VerticalAlignment="Center" IsChecked="{Binding Productos, Mode=TwoWay}"/>
@@ -99,30 +93,9 @@
                         <Label Content="Utilidades" FontFamily="Roboto" FontSize="16"/>
                         <CheckBox VerticalAlignment="Center" IsChecked="{Binding Utilidades, Mode=TwoWay}"/>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Clientes" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Clientes, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="30 0 0 0">
-                        <Label Content="Crear" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding CrearCliente, Mode=TwoWay}"/>
-                        <Label Content="Editar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding EditarCliente, Mode=TwoWay}"/>
-                        <Label Content="Eliminar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding EliminarCliente, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Categorias" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Categorias, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="30 0 0 0">
-                        <Label Content="Crear" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding CrearCategoria, Mode=TwoWay}"/>
-                        <Label Content="Editar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding EditarCategoria, Mode=TwoWay}"/>
-                        <Label Content="Eliminar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding EliminarCategoria, Mode=TwoWay}"/>
-                    </StackPanel>
+                    
+                    
+                    
                 </StackPanel>
 
                 <StackPanel Grid.Column="1">
@@ -148,40 +121,9 @@
                         <Label Content="Eliminar" FontFamily="Roboto" FontSize="16"/>
                         <CheckBox VerticalAlignment="Center" IsChecked="{Binding EliminarIngreso, Mode=TwoWay}"/>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Caja" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Caja, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="30 0 0 0">
-                        <Label Content="Continuar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding ContinuarCaja, Mode=TwoWay}"/>
-                        <Label Content="Eliminar" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding EliminarCaja, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Contabilidad" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Contabilidad, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Pagos" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Pagos, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Gastos" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding Gastos, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Informacion Ingresos" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding InformacionIngresos, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Depositos Internos" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding DepositosInternos, Mode=TwoWay}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Label Content="Inyeccion de Capital" FontFamily="Roboto" FontSize="16"/>
-                        <CheckBox VerticalAlignment="Center" IsChecked="{Binding InyeccionCapital, Mode=TwoWay}"/>
-                    </StackPanel>
+                    
+                    
+                    
                 </StackPanel>
             </Grid>
 

@@ -202,25 +202,10 @@ namespace Proyecto_Analisis_de_Sistema.Services.DAO
                         p.EditarClientes = reader.GetByte(22) == 0 ? false : true;
                         p.EliminarClientes = reader.GetByte(23) == 0 ? false : true;
                         p.Categorias = reader.GetByte(24) == 0 ? false : true;
-                        p.CrearCategoria = reader.GetByte(25) == 0 ? false : true;
-                        p.EditarCategoria = reader.GetByte(26) == 0 ? false : true;
-                        p.EliminarCategoria = reader.GetByte(27) == 0 ? false : true;
-                        p.Proveedores = reader.GetByte(28) == 0 ? false : true;
-                        p.CrearProveedor = reader.GetByte(29) == 0 ? false : true;
-                        p.EditarProveedor = reader.GetByte(30) == 0 ? false : true;
-                        p.EliminarProveedor = reader.GetByte(31) == 0 ? false : true;
-                        p.Ingresos = reader.GetByte(32) == 0 ? false : true;
-                        p.CrearIngreso = reader.GetByte(33) == 0 ? false : true;
-                        p.EliminarIngreso = reader.GetByte(34) == 0 ? false : true;
-                        p.Caja = reader.GetByte(35) == 0 ? false : true;
-                        p.ContinuarCaja = reader.GetByte(36) == 0 ? false : true;
-                        p.EliminarCaja = reader.GetByte(37) == 0 ? false : true;
-                        p.Contabilidad = reader.GetByte(38) == 0 ? false : true;
-                        p.Pagos = reader.GetByte(39) == 0 ? false : true;
-                        p.Gastos = reader.GetByte(40) == 0 ? false : true;
-                        p.InformacionIngresos = reader.GetByte(41) == 0 ? false : true;
-                        p.DepositosInternos = reader.GetByte(42) == 0 ? false : true;
-                        p.InyeccionCapital = reader.GetByte(43) == 0 ? false : true;
+                        
+                        
+                       
+                        
                     }
                 }
             }
